@@ -1,0 +1,100 @@
+#humo1 {
+	width: 20px;
+	height: 20px;
+	background: #E3DFDF;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+	left: 20px; 
+	top: -30px;
+}
+#humo2 {
+	width: 20px;
+	height: 20px;
+	background: #B1ACAC;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+	left: 40px;
+	top: -60px;
+}
+#chimenea {
+	width: 25px;
+	height: 80px;
+	background: #8B6130;
+	position: relative;
+	margin-left: 10px; 
+	margin-top: 20px;
+}
+#techo {
+	width: 0;
+	height: 0;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 100px solid #A94914;
+	position: relative;
+	left: 200px;
+	top: 300px;
+}
+.muro {
+	width: 100px;
+	height: 100px;
+	background-color: #586C23;
+	position: relative; 
+	left: 210px; 
+	top: 300px;
+}
+.puerta {
+	width: 20px;
+	height: 50px;
+	background-color: #192D57;
+	position: absolute;
+	margin-left: 40px; 
+	margin-top: 50px;
+}
+.auto {
+	left: -50%;
+	top: 0 auto;
+
+}
+#ventana1 {
+	width: ;
+	height: ;
+
+}
+#ventana2{
+	width: ;
+	height: ;
+}
+#baseauto {
+	width: 200px;
+	height: 50px;
+	background-color: red;
+	position: relative; 
+	left: 210px; 
+	top: 300px;
+}
+#rueda1 {
+	width: 20px;
+	height: 20px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	left: ;
+	top: 300px;
+}
+#rueda2 {
+	width: 20px;
+	height: 20px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	left: ;
+	top: 300px;
+}

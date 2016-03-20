@@ -1,0 +1,39 @@
+.abuelo {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+.padre {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+	left: 50px;
+	top: 50px;
+}
+.hijo {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	position: absolute;
+}
+.abuela {
+	width: 200px;
+	height: 200px;
+	background-color: brown;
+	position: relative;
+}
+.madre {
+	width: 100px;
+	height: 100px;
+	background-color: indigo;
+	position: static;
+	left: 50px;
+	top: 50px;
+}
+.hija {
+	width: 50px;
+	height: 50px;
+	background-color: magenta;
+	position: absolute;
+}
