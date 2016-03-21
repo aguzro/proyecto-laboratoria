@@ -1,33 +1,32 @@
-hr {	
-	border: 2px solid black;
-	position: absolute;
+#separator {
+	border-top: 3px solid black;
+	width: 65px; 
+	height: 15px;
+	display: block;
 }
-div {
-	display: inline-block;
-	margin: 30px 10px 10px 10px;
+#bloques {
+	width: 750px;
 }
-img{
-	z-index: 1;
-	display: inline-block;
-	margin:10px 10px 10px 10px;
-	position: relative;
-}	
-#1 {
-	z-index: 2;
-	top: -10px;
-	position: relative;
-	text-align: left;
-	display: inline-block;
+.container {
+  height: 212px;
+  width: 212px;
+  position: relative;
+  margin: 10px 10px 10px 10px ;
+  display: inline-block;
 }
-#2 {
-	z-index: 2;
-	top: -10px;
-	position: relative;
-	text-align: left;
+.image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: inline-block;
 }
-#4 {
-	z-index: 2;
-	top: -40px;
-	position: relative;
-	text-align: left;
+.text {
+  z-index: 2;
+  position: absolute;
+  color: #ffffff;
+  font-size: 16px;
+  left: 140px;
+  top: 170px;
 }
+
